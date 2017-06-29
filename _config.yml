@@ -5,10 +5,10 @@ description: >
   Jekyll Template for Project Websites
   providing documentation and blog post pages.
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: https://restify.github.io/ # the base hostname & protocol for your site
+git_address: https://github.com/restify/restify.github.io
+git_edit_address: https://github.com/restify/restify.github.io
 
 # Build settings
 markdown: kramdown
@@ -25,7 +25,7 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: Europe/Berlin
+timezone: America/Los_Angeles
 defaults:
 - scope:
     path: _posts
