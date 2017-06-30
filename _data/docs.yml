@@ -1,10 +1,15 @@
 - title: Getting Started
   docs:
   - home
-  - customization
 
-- title: Examples
+- title: API
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+    - server-api
+    - request-api
+    - response-api
+    - plugins-api
+
+- title: Guides
+  docs:
+    - client-guide
+    - dtrace

@@ -27,15 +27,15 @@ exclude:
   - README.md
 timezone: America/Los_Angeles
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
+#- scope:
+#  path: _posts
+#  type: posts
+# values:
+#  layout: post
+#  sectionid: blog
 
 - scope:
-    path: _docs
+    path: _docs/docs
     type: docs
   values:
     layout: docs

@@ -1,0 +1,4 @@
+[submodule "_docs"]
+	path = _docs
+	url = https://github.com/restify/node-restify
+	branch = 5.x
