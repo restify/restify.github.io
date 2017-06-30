@@ -22,19 +22,36 @@ body {
 }
 .header-container {
   background-color: black;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/bg.jpg') no-repeat 50% 0;
   color: #fff;
+  margin-top: -37px;
+  padding-top: 74px;
+  text-align: center;
 
   h1 {
     color: #fff;
   }
-  // background-attachment: fixed;
-  background-size: cover;
-  background-position: center 36%;
-  margin-top: -37px;
+
+
+  p {
+    padding-top: 20px;
+  }
+
+  .logo {
+    height: 80px;
+    margin: 50px;
+  }
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
 }
 .navbar-container {
   font-size: 16px;
+}
+.navbar a {
+  color: #fff !important;
+}
+.navbar a:hover {
+  color: #aaa !important;
 }
 .page-content {
   padding-bottom: 20px;
@@ -62,4 +79,11 @@ body {
 }
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
+}
+.logos img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.impact p {
+  text-align: justify;
 }
