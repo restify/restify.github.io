@@ -49,6 +49,9 @@ body {
 .navbar-container {
   font-size: 16px;
 }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
 .navbar a {
   color: #fff !important;
 }
