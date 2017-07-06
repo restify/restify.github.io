@@ -11,5 +11,6 @@
 
 - title: Guides
   docs:
+    - 4to5
     - client-guide
     - dtrace
