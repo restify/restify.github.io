@@ -1,6 +1,41 @@
-# Jekyll Doc Theme
+# Restify Documentation
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+
+## Updating the docs
+
+To pull in the latest documentation for the project, simply:
+
+```bash
+git clone --recursive git@github.com:restify/restify.github.io
+cd restify.github.io
+git submodule update --remote && git add _docs && git commit -m 'bump' && git push origin master
+```
+
+And the docs will automatically rebuild themselves using [GitHub Pages](https://pages.github.com/)
+
+## Adding doc pages
+
+To add a doc to the website, include the appropriate header:
+
+```text
+---
+title: [Page Title]
+permalink: /docs/[page-id]/
+---
+```
+
+Then add the page to the navbar by adding the `page-id` to the appropriate section in  `_data/docs.yml`:
+
+For example:
+
+```yml
+...
+- title: API
+  docs:
+    - server-api
+    - [page-id]
+...
+```
 
 ## Running locally
 
@@ -18,6 +53,6 @@ cd jekyll-doc-theme
 bundle exec jekyll serve
 ```
 
-## License
+## Design
 
-Released under [the MIT license](LICENSE).
+We used the amazing [jekyll-doc-theme by aksakalli](https://aksakalli.github.io/jekyll-doc-theme/) as a jumping off point for our website!
