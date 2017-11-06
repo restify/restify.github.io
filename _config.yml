@@ -1,9 +1,7 @@
 # Site settings
 title: Restify
 email: wblankenship@netflix.com
-description:
-  A Node.js web service framework optimized for building semantically
-  correct RESTful web services ready for production use at scale.
+description: "A Node.js web service framework optimized for building semantically correct RESTful web services ready for production use at scale. restify optimizes for introspection and perfromance, and is used in some of the largest Node.js deployments on Earth."
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://restify.github.io # the base hostname & protocol for your site
